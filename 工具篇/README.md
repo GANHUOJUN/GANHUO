@@ -5,7 +5,7 @@
 **1. Visual Studio Code(常说的VS Code，也是我目前一直在用的，而且是开源的喔，插件市场也很丰富)**
 
 <p align="center">
-  <img style="width:400px" src="../素材/vscode.png" alt="vscode">
+  <img style="width:400px" src="../素材/图片/vscode.png" alt="vscode">
 </p>
 
 **2. WebStorm(jetbrains旗下的产品，也是功能最为强大的一款，只可惜需要付费使用，虽然可以破解但是不建议这样做，在力所能及的范围内支持正版或者使用开源咯)**
@@ -31,7 +31,7 @@
 **5. 终极大招：iTerm2 + oh my zsh(用过的人都说好，也是我一直在使用的方案)**
 
 <p align="center">
-  <img style="width:400px" src="../素材/iterm2ohmyzsh.png" alt="iterm2ohmyzsh">
+  <img style="width:400px" src="../素材/图片/iterm2ohmyzsh.png" alt="iterm2ohmyzsh">
 </p>
 
 ## 开发环境
@@ -43,6 +43,16 @@
 **3. Windows(用户基数最大，软件生态比较齐全)**
 
 **总结. 对于我个人来说macOs跟Linux开发环境比较稳定，相对于Windows的环境配置略微简单且问题较少(并不是偏心喔，仅仅是个人看法)**
+
+## 工作沟通工具
+
+**1. 钉钉(国内的伙伴应该大部分用的这个，阿里出品，工作必备)**
+
+**2. Skype(还有一款企业版Skype business，个人感觉不太友好，体验不是很好)**
+
+**3. Telegram(一款基于区块链技术的通讯软件，聊天信息加密等...由于本人工作特殊性，投靠他的怀抱)**
+
+**4. Potato Chat(几乎复刻了Telegram的所有功能，与其最大区别应该就是在国内也有很好的访问性，据我所知在国内也有一些团队会使用它)**
 
 ## 周边工具
 

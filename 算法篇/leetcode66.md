@@ -1,4 +1,5 @@
 # leetcode 66. 加一
+
 给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。
 
 最高位数字存放在数组的首位， 数组中每个元素只存储单个数字。
@@ -19,9 +20,10 @@
 
 ## 解析题意
 
-    简单来说就是，输入的数组其实只是一个非负整数的代表式，例如非负整数为123就输入[1,2,3]，然后将这个非负整数加上1后，输出一个表示这个非负整数的数组表达式。
+    简单来说就是，输入的数组其实只是一个非负整数的代表式，例如非负整数为123就输入[1,2,3]，
+    然后将这个非负整数加上1后，输出一个表示这个非负整数的数组表达式。
 
-## 上才艺
+# 上才艺
 
     二话不说啪啪啪甩上答案，这不是很简单嘛，简单到我甚至连性能都不想考虑：
     0.先将数组转成字符串，然后加上1会引起隐式转换完成加法运算
@@ -29,7 +31,7 @@
     2.最后将数组内字符串转化成数值类型
     3.Done
 
-```
+``` 
 /**
  * @param {number[]} digits
  * @return {number[]}
@@ -71,14 +73,15 @@ var plusOne = function(digits) {
     这并不是JS特有的性质，而是IEEE754双精度浮点数就是这么定义的。
     好吧，大概知道是这么回事了，那我们就继续通过已知的知识去解答呗
 
-## 继续上才艺
+# 继续上才艺
 
     既然在（-2^53 , 2^53)范围内的整数是安全的，那咱们就设想一下：
     0.如果咱们把转化后的数字切割成几个安全的整数再进行求解，若有进位则往前一段分割的数进位，直到所有切割完的数都进位结束
     1.既然是分割，咱们的输入已经为我们分割成了一位的若干数组，那岂不是天作之合，直接省去转化过程，开箱即用
     2.根据题意，那咱们就直接从最后一位开始加1，若有进位则往前加1，这样的话时间复杂度就可以控制在O(1) - O(n)之间
     3.Done
-```
+
+``` 
 /**
  * @param {number[]} digits
  * @return {number[]}
@@ -100,4 +103,34 @@ var plusOne = function (digits) {
 };
 ```
 
+<style>
+h1 { 
+  width:100%; 
+  display:block; 
+  line-height:1.5em; 
+  overflow:visible; 
+  font-size:22px; 
+  text-shadow:#f3f3f3 1px 1px 0px, #b2b2b2 1px 2px 0; 
+  position:relitive; 
+  }
 
+h1:before {
+  content:'';
+  position:absolute; 
+  border:2px solid #ddd;
+  height:60px;
+  width:100px;
+  top:50%;
+  margin-top:-30px;
+  left:-20px;
+}
+h1:after {
+  content:'';
+  position:absolute; 
+  border:2px solid #ddd;
+  height:40px;
+  width:40px;
+  bottom:-20px;
+  left:-40px;
+}
+</style>

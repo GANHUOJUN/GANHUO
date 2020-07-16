@@ -17,8 +17,21 @@
 ## 目录
 ```
 GANHUO
+.
 ├── README.md
+├── 素材
+│   ├── README.md
+│   └── 图片
+│       ├── iterm2ohmyzsh.png
+│       ├── logo.png
+│       ├── vscode.png
+│       ├── wechat.jpeg
+│       └── wechat.svg
 ├── 工具篇
+│   └── README.md
 ├── 应用篇
+│   └── README.md
 └── 算法篇
+    ├── README.md
+    └── leetcode66.md
 ```

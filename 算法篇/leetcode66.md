@@ -102,35 +102,3 @@ var plusOne = function (digits) {
     return digits
 };
 ```
-
-<style>
-h1 { 
-  width:100%; 
-  display:block; 
-  line-height:1.5em; 
-  overflow:visible; 
-  font-size:22px; 
-  text-shadow:#f3f3f3 1px 1px 0px, #b2b2b2 1px 2px 0; 
-  position:relitive; 
-  }
-
-h1:before {
-  content:'';
-  position:absolute; 
-  border:2px solid #ddd;
-  height:60px;
-  width:100px;
-  top:50%;
-  margin-top:-30px;
-  left:-20px;
-}
-h1:after {
-  content:'';
-  position:absolute; 
-  border:2px solid #ddd;
-  height:40px;
-  width:40px;
-  bottom:-20px;
-  left:-40px;
-}
-</style>

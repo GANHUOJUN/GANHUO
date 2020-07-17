@@ -102,3 +102,6 @@ var plusOne = function (digits) {
     return digits
 };
 ```
+
+# 总结
+本题的解题思路其实可以运用到实际开发中，例如我们可以运用这种思路去封装一个js浮点数四则运算方法以解决精度丢失问题
